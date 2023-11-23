@@ -1,18 +1,18 @@
 @charset "utf-8";
 
-body{
+body {
     margin-left: 20%;
     margin-right: 20%;
     background-color: rgb(217, 220, 223);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.conteiner{
+.conteiner {
     background-color: white;
     padding: 50px;
 }
 
-.btn{
+.btn {
     border: none;
     background-color: red;
     color: white;
@@ -21,8 +21,16 @@ body{
     border-radius: 1px;
 }
 
-.btn:hover{
+.btn:hover {
     color: black;
     background-color: rgb(169, 169, 169);
     transition: 0.5s;
+}
+
+@media (max-width: 865px) {
+
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    }
 }
