@@ -19,8 +19,8 @@ img {
 
 .btn {
     border: none;
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: black;
     transition: 0.5s;
     padding: 10px 20px 10px 20px;
     border-radius: 1px;
@@ -36,6 +36,16 @@ img {
     display: none;
 }
 
+.home{
+    padding: 5px;
+    background-color: rgb(218, 218, 218);
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
 
 
 @media (max-width: 865px) {
@@ -47,5 +57,24 @@ img {
 
     img {
         width: 100%;
+    }
+
+    .home{
+        display: flex;
+        justify-content: right;
+    }
+    .btn {
+        border: none;
+        background-color: white;
+        color: black;
+        transition: 0.5s;
+        padding: 5px 10px 5px 10px;
+        border-radius: 1px;
+    }
+    
+    .btn:hover {
+        color: black;
+        background-color: rgb(169, 169, 169);
+        transition: 0.5s;
     }
 }
